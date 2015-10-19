@@ -1,0 +1,8 @@
+#[localhost]
+localhost           ansible_connection=local
+
+[raspberry]
+192.168.1.1         ansible_ssh_user=pi
+
+# run with
+# ansible-playbook -i hosts playbook.yml  --ask-sudo-pass -v 

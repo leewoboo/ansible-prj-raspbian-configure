@@ -1,0 +1,36 @@
+* Work in progress.. *
+
+ansible-prj-rasbian-configure
+========================================
+
+This Ansible project is an example on how to use the roles:
+* ansible-role-rasbian-configure
+
+This role is intended to obtain and configure a raspbian image
+in different ways emulating it in qemu..
+
+Requirements
+------------
+
+Ansible 1.6 or higher.
+
+Project variables
+-----------------
+
+It uses the variables defined in  ansible-role-rasbian-configure/defaults/main.yml
+
+Install
+--------
+
+    git clone  https://github.com/leewoboo/ansible-prj-raspbian-configure
+
+License
+-------
+
+GPLv3
+
+Author Information
+------------------
+
+Lee Woboo
+
